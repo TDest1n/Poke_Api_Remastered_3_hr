@@ -1,12 +1,12 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import SearchBar from "./components/Searchbar";
+import Searchbar from "./components/Searchbar";
 
 export default function App() {
   return (
     <div>
       <Navbar />
-      <SearchBar />
+      <Searchbar />
       <div className="App"></div>
     </div>
   );
