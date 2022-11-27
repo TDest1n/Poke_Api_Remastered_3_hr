@@ -40,6 +40,18 @@ nav {
   color: white;
   padding: 10px 12px;
 }
+.pokedex-header {
+  display: flex;
+  flex-direction: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.pokedex-grid {
+  display: flex;
+  gap: 10px;
+  grid-template-colmuns: repeat(3, 1fr);
+}
 .App {
   text-align: center;
 }
