@@ -9,7 +9,7 @@ const Pokedex = (props) => {
         <div>Pageno:</div>
       </div>
       {loading ? (
-        <div>The Beast, is loadind safely ....</div>
+        <div>The Beast, is loading safely ....</div>
       ) : (
         <div className="pokedex-grid">
           {pokemons.map((pokemon, index) => {
